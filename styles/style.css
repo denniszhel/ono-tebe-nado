@@ -1,1 +1,86 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  align-items: center;
+  width: 1052px;
+  height: 105px;
+  margin-top: 92px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header__menu {
+  justify-self: start;
+  margin-left: 26px;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 30px;
+}
+
+.header__links-list-item {
+  color: #000;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.18px;
+  list-style: circle;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+  letter-spacing: 0;
+}
+
+.header__logo {
+  display: block;
+  height: 105px;
+}
+
+.header__logo-image {
+  height: 100%;
+}
+
+.adress {
+  width: 240.521px;
+  height: 98px;
+  color: #000;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24.3px; /* 135% */
+  letter-spacing: 0.18px;
+  justify-self: end;
+  margin-right: 26px;
+}
+
+.adress a {
+  text-decoration: none;
+}
+
+.adress div {
+  height: 1px;
+  background: #000;
+}
+
+.adress__phone-bottom-line {
+  width: 132px;
+}
+
+.adress__mail-bottom-line {
+  width: 130px;
+}
+
+.header__address {
+  width: 237px;
+  color: #000;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24.3px; /* 135% */
+}
